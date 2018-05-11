@@ -1,0 +1,263 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 27, 2017, 5:22:30 PM
+    Author     : DELL
+*/
+
+/* .rtl > body, */
+.rtl > body,.rtl>div,.rtl > .panel,.rtl>td,.rtl>tr,.rtl>th,.rtl>table,.rtl>.panel>.panel-body{
+    /*float: right;*/
+    direction: rtl;
+}
+html.rtl> select{
+    direction: rtl;
+}
+html.rtl .table > thead > tr > th, html.rtl .table > tbody > tr > th, html.rtl .table > tfoot > tr > th, html.rtl .table > thead > tr > td, html.rtl .table > tbody > tr > td, html.rtl .table > tfoot > tr > td {
+    text-align: right;  
+    direction: rtl;
+}
+
+html.rtl > .col-lg-1,
+html.rtl > .col-lg-2, 
+html.rtl > .col-lg-3,
+html.rtl > .col-lg-4,
+html.rtl > .col-lg-5,
+html.rtl > .col-lg-6,
+html.rtl > .col-lg-7,
+html.rtl > .col-lg-8,
+html.rtl > .col-lg-9,
+html.rtl > .col-lg-10,
+html.rtl > .col-lg-11,
+html.rtl > .col-lg-12{
+    float: right;
+
+}
+html[dir="rtl"] .panel-body > .col-xs-1, html[dir="rtl"] .panel-body > .col-xs-2, html[dir="rtl"] .panel-body > .col-xs-3, html[dir="rtl"] .panel-body > .col-xs-4, html[dir="rtl"] .panel-body > .col-xs-5, html[dir="rtl"] .panel-body > .col-xs-6, html[dir="rtl"] .panel-body > .col-xs-7, html[dir="rtl"] .panel-body > .col-xs-8, html[dir="rtl"] .panel-body > .col-xs-9, html[dir="rtl"] .panel-body > .col-xs-10, html[dir="rtl"] .panel-body > .col-xs-11, html[dir="rtl"] .panel-body > .col-xs-12 {
+    float: right;
+}
+@media (min-width: 768px) {
+    html[dir="rtl"] .panel-body > .col-sm-1, html[dir="rtl"] .panel-body > .col-sm-2, html[dir="rtl"] .panel-body > .col-sm-3, html[dir="rtl"] .panel-body > .col-sm-4, html[dir="rtl"] .panel-body > .col-sm-5, html[dir="rtl"] .panel-body > .col-sm-6, html[dir="rtl"] .panel-body > .col-sm-7, html[dir="rtl"] .panel-body > .col-sm-8, html[dir="rtl"] .panel-body > .col-sm-9, html[dir="rtl"] .panel-body > .col-sm-10, html[dir="rtl"] .panel-body > .col-sm-11, html[dir="rtl"] .panel-body > .col-sm-12 {
+        float: right;
+    }
+}
+@media (min-width: 992px) {
+    html[dir="rtl"] .panel-body > .col-md-1, html[dir="rtl"] .panel-body > .col-md-2, html[dir="rtl"] .panel-body > .col-md-3, html[dir="rtl"] .panel-body > .col-md-4, html[dir="rtl"] .panel-body > .col-md-5, html[dir="rtl"] .panel-body > .col-md-6, html[dir="rtl"] .panel-body > .col-md-7, html[dir="rtl"] .panel-body > .col-md-8, html[dir="rtl"] .panel-body > .col-md-9, html[dir="rtl"] .panel-body > .col-md-10, html[dir="rtl"] .panel-body > .col-md-11, html[dir="rtl"] .panel-body > .col-md-12 {
+        float: right;
+    }
+}
+@media (min-width: 1170px) {
+    html[dir="rtl"] .panel-body > .col-lg-1, html[dir="rtl"] .panel-body > .col-lg-2, html[dir="rtl"] .panel-body > .col-lg-3, html[dir="rtl"] .panel-body > .col-lg-4, html[dir="rtl"] .panel-body > .col-lg-5, html[dir="rtl"] .panel-body > .col-lg-6, html[dir="rtl"] .panel-body > .col-lg-7, html[dir="rtl"] .panel-body > .col-lg-8, html[dir="rtl"] .panel-body > .col-lg-9, html[dir="rtl"] .panel-body > .col-lg-10, html[dir="rtl"] .panel-body > .col-lg-11, html[dir="rtl"] .panel-body > .col-lg-12 {
+        float: right;
+    }
+}
+.modal-content .modal-dialog{
+    background-color: #FFFFFF;
+}
+.tb_div{
+    float: left;
+    width:14.285%;
+    min-height: min-content;
+    border: 1px grey solid;
+    text-align: center;
+    padding: 1.8%;
+    cursor: pointer;
+}
+/* The switch - the box around the slider */
+/*.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+ Hide default HTML checkbox 
+.switch input {display:none;}
+
+ The slider 
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #00CEB4;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #00CEB4;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+ Rounded sliders 
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}*/
+#exTab1 .tab-content {
+    /*color : white;*/
+    /*background-color: lightgray;*/
+    padding : 5px 15px;
+    /*    border: 1px solid grey;*/
+}
+
+#exTab2 h3 {
+    /*color : white;*/
+    /*background-color: #428bca;*/
+    padding : 5px 15px;
+}
+
+/* remove border radius for the tab */
+
+#exTab1 .nav-pills > li > a {
+    border-radius: 0;
+}
+
+/* change border radius for the tab , apply corners on top*/
+
+#exTab3 .nav-pills > li > a {
+    border-radius: 4px 4px 0 0 ;
+}
+
+#exTab3 .tab-content {
+    /*    color : white;*/
+    /*background-color: #428bca;*/
+    padding : 5px 15px;
+}
+
+
+
+
+
+/*******************************
+* MODAL AS LEFT/RIGHT SIDEBAR
+* Add "left" or "right" in modal parent div, after class="modal".
+* Get free snippets on bootpen.com
+*******************************/
+.modal.left .modal-dialog,
+.modal.right .modal-dialog {
+    position: fixed;
+    margin: auto;
+    width: 320px;
+    height: 100%;
+    -webkit-transform: translate3d(0%, 0, 0);
+    -ms-transform: translate3d(0%, 0, 0);
+    -o-transform: translate3d(0%, 0, 0);
+    transform: translate3d(0%, 0, 0);
+}
+
+.modal.left .modal-content,
+.modal.right .modal-content {
+    height: 100%;
+    overflow-y: auto;
+}
+
+.modal.left .modal-body,
+.modal.right .modal-body {
+    padding: 15px 15px 80px;
+}
+
+/*Left*/
+.modal.left.fade .modal-dialog{
+    left: -320px;
+    -webkit-transition: opacity 0.3s linear, left 0.3s ease-out;
+    -moz-transition: opacity 0.3s linear, left 0.3s ease-out;
+    -o-transition: opacity 0.3s linear, left 0.3s ease-out;
+    transition: opacity 0.3s linear, left 0.3s ease-out;
+}
+
+.modal.left.fade.in .modal-dialog{
+    left: 0;
+}
+
+/*Right*/
+.modal.right.fade .modal-dialog {
+    right: -320px;
+    -webkit-transition: opacity 0.3s linear, right 0.3s ease-out;
+    -moz-transition: opacity 0.3s linear, right 0.3s ease-out;
+    -o-transition: opacity 0.3s linear, right 0.3s ease-out;
+    transition: opacity 0.3s linear, right 0.3s ease-out;
+}
+
+.modal.right.fade.in .modal-dialog {
+    right: 0;
+}
+
+/* ----- MODAL STYLE ----- */
+.modal-content {
+    border-radius: 0;
+    border: none;
+}
+
+.modal-header {
+    border-bottom-color: #EEEEEE;
+    background-color: #FAFAFA;
+}
+
+/* ----- v CAN BE DELETED v ----- */
+body {
+    background-color: #78909C;
+}
+
+.demo {
+    padding-top: 60px;
+    padding-bottom: 110px;
+}
+
+.btn-demo {
+    margin: 15px;
+    padding: 10px 15px;
+    border-radius: 0;
+    font-size: 16px;
+    background-color: #FFFFFF;
+}
+
+.btn-demo:focus {
+    outline: 0;
+}
+
+.demo-footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 15px;
+    background-color: #212121;
+    text-align: center;
+}
+
+.demo-footer > a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    color: #fff;
+}

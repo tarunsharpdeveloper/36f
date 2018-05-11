@@ -1,0 +1,2 @@
+<link rel="stylesheet" type="text/css" href="<?php print _MEDIA_URL ?>bower_components/dropzone/dist/min/dropzone.min.css" />
+<script type="text/javascript" src="<?php print _MEDIA_URL ?>bower_components/dropzone/dist/min/dropzone.min.js"></script>

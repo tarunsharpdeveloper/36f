@@ -1,0 +1,1 @@
+<script type='text/javascript' src='<?php print _MEDIA_URL ?>js/jquery.sticky.js'></script>

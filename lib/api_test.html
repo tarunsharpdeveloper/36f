@@ -1,0 +1,73 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+    </head>
+    <body contenteditable    >
+        <br /> <b>first clock in </b>
+        <br />http://45.79.140.218/wz_dev/v1/api/clock_in_via_clock?user_id=300
+        <br />http://localhost/wh/api/clock_in_via_clock?user_id=300
+        <br />
+        <br />
+        <br />
+        <br />        having shift - if user does have the shift
+        <br />        http://45.79.140.218/wz_dev/v1/api/having_shift?shift_id=32&id=300
+        <br />        http://localhost/wh/api/having_shift?shift_id=32&id=300
+        <br />
+        <br />
+        <br />        start lunch
+        <br />        http://45.79.140.218/wz_dev/v1/api/set_lunch_out?shiftid=616
+        <br />        http://localhost/wh/api/set_lunch_out?shiftid=616
+        <br />
+        <br />        end lunch
+        <br />        http://45.79.140.218/wz_dev/v1/api/set_lunch_in?shiftid=616
+        <br />  http://localhost/wh/api/set_lunch_in?shiftid=616
+        <br />
+        <br />
+        <br />
+        <br />        end the day:
+        <br />  http://45.79.140.218/wz_dev/v1/api/clock_out_via_clock?shiftid=616
+        <br />  http://localhost/wh/api/clock_out_via_clock?shiftid=616
+        <br />
+        <br />  start_current_meeting
+        <br />  http://45.79.140.218/wz_dev/v1/api/start_current_meeting?user_id=300
+        <br />  http://localhost/wh/api/start_current_meeting?user_id=300
+        <br />
+        <br />  end_current_meeting
+        <br />  http://45.79.140.218/wz_dev/v1/api/end_current_meeting?user_id=300
+        <br />  http://localhost/wh/api/end_current_meeting?user_id=300
+        <br />
+        <br />  timesheet data:
+        <br />  http://45.79.140.218/wz_dev/v1/api/timesheet_page_month_data?user_id=298&month=01-12-2017
+        <br />  http://localhost/wh/api/timesheet_page_month_data?user_id=298&month=01-12-2017
+        <br />
+        <br />
+        <br />  schedule data:
+        <br />  http://45.79.140.218/wz_dev/v1/api/schedule?user_id=300&start_date=۱۳۹۶-۱۰-۱۱
+        <br />  http://localhost/wh/api/schedule?user_id=300&start_date=۱۳۹۶-۱۰-۱۱
+        <br />
+        <br />
+        <br />  truncate the data:
+        <br />  http://45.79.140.218/wz_dev/v1/api/truncate?user_id=300
+        <br />  http://localhost/wh/api/truncate?user_id=300
+
+        <br />
+        <br />  Add Test Data
+        <br />  http://45.79.140.218/wz_dev/v1/api/add_test_data
+        <br />  http://localhost/wh/api/add_test_data
+
+        <div style="display:none">
+            add a new shift:
+            INSERT INTO `wh-v1`.`tb_assign_shift` (`id`, `unique_id`, `user_id`, `shift_type_id`, `title`, `start_date`, `start_time`, `end_date`, `end_time`, `total_hour`, `deduction`, `area_of_work`, `notes`, `shiftcolor`, `created_at`, `modified_at`) VALUES 
+            (NULL, '', '300', '0', '', '2018-01-03', '07:00', '2018-01-03', '20:00', '00:13:00', '', '4', '', '', '', '');
+        </div>        
+		
+		<div style="display:none">
+            add a timeoff
+            INSERT INTO `wh-v1`.`tb_timeoff` 
+			(`id`, `unique_id`, `company_id`, `emp_id`, `absence_type`, `from_date`, `to_date`, `reason`, `reason_id`, `status`, `employee_notes`, `manager_notes`, `total_days`, `day_hourly`, `from_date_timestamp`, `to_date_timestamp`, `subject`, `add_by_manager`, `added_by_id`, `isEdited`, `processed_leave_date`, `processed_leave_status`, `created_at`, `modified_at`) VALUES 
+			(NULL, 'WhoZOor_Amir_admin_1514399400_DayOffW_9d2e4', '1', '300', 'entireDay', '2018-01-17 14:58:44', '2018-01-18 14:58:50', 'Time Off (Without Payment)', '3', '', '', '', '880', '', '', '', 'test', '1', '14', '1', '0000-00-00', '0', '', '');
+        </div>
+
+
+    </body>
+</html>
